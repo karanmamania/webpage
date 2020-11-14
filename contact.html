@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: content-box;
+    
+}    
+input[type=text], select, textarea {
+  width: 95%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+    input[type=submit]:hover {
+  background-color: #45a049;
+}
+    .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+    .col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+    /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 500px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+    </style>
+</head>
+    <body>
+        <h2>Contact Us</h2>
+        <h4>You can fill out the form below to get in contact with us.</h4>
+
+<div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">Full Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="Full Name" placeholder="Enter Your Full Name...">
+    </div>
+  </div>
+ 
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Email Address</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="Full Name" placeholder="Enter Your Email Address...">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="query">Query</label>
+    </div>
+    <div class="col-75">
+      <textarea id="query" name="query" placeholder="Write Your Query here.." ></textarea>
+    </div>
+  </div>
+  <div class="row" >
+    <input type="submit" value="Send Mail">
+  </div>
+  </form>
+</div>
+<p> To go to the homepage press 'Home'</p>
+       <a href="index.html">Home</a> 
+                
+        <div class="bottom">
+            <div class="container" align="center">
+            
+                <p> 
+                    &copy; Karan mamania
+        
+                    </p>
+              
+            
+                </div>
+            
+        
+            </div>
+        
+        
+        
+
+    </body>
+</html>
